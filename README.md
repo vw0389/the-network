@@ -29,3 +29,9 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Walkthrough
 https://vweinert.com/challenge_18.webm
+
+## Technologies
+
+express
+
+MongoDB via Mongoose
