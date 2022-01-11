@@ -26,10 +26,7 @@ const thoughtController = {
             });
     },
     updateThoughtById({params,body},res) {
-        Thought.findOneAndUpdate( {_id: params.id},
-            {
-                body
-            },
+        Thought.findOneAndUpdate( {_id: params.id},body,
             {new: true, runValidators: true})
             .then (data => {
                if (!data){
